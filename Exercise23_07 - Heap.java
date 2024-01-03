@@ -63,6 +63,7 @@ public class Heap<E extends Comparable<E>> {
         }
         return removedObject;
     }
+    
     public int getSize() {
         return list.size();
     }
